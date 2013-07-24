@@ -1,3 +1,4 @@
+# Author: Ross Kahn
 
 def main
 	Dir.entries(".").each do |entry|											# Cycle through each file in cur dir	
