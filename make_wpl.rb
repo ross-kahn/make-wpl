@@ -14,7 +14,7 @@ def main
 					# For each line in the original file
 					efile.each do |line|
 						if(line =~ /<?zpl.*/)
-							line.gsub!(/zpl/, "zpl")
+							line.gsub!(/zpl/, "wpl")
 							line.gsub!(/2/, "1")
 							puts(line)
 						end
